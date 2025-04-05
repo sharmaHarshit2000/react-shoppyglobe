@@ -11,7 +11,7 @@ const cartSlice = createSlice({
       );
 
       if (existingItem) {
-        // If item exists, increase its quantity instead of duplicating it
+        // If item exists, increase its quantity 
         existingItem.quantity += 1;
       } else {
         // If item is new, add it to the cart with quantity = 1
@@ -32,7 +32,7 @@ const cartSlice = createSlice({
 
       if (existingItem) {
         if (existingItem.quantity > 1) {
-          // If quantity is more than 1, just decrement
+          // If quantity is more than 1, decrement
           existingItem.quantity -= 1;
         } else {
           // If quantity is 1, remove item from cart

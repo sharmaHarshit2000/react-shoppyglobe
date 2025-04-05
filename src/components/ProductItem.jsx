@@ -56,7 +56,7 @@ function ProductItem({ product }) {
                     )}
                 </div>
 
-                {/* Display stars by mapping over a fixed array of 5, and conditionally color them based on rating */}
+                {/* Display stars by mapping over an array of 5, and conditionally color them based on rating */}
                 {product.rating && (
                     <div className="flex items-center gap-1 mt-2 text-yellow-500 text-sm">
                         {[...Array(5)].map((_, i) => (

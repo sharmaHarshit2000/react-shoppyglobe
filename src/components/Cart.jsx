@@ -42,7 +42,7 @@ function Cart() {
                             <span className="text-2xl font-bold text-green-600">${totalPrice.toFixed(2)}</span>
                         </div>
 
-                        {/* Button to clear entire cart - dispatches clearCart action */}
+                        {/* Button to clear entire cart */}
                         <button
                             onClick={() => dispatch(clearCart())}
                             className="w-full bg-red-600 text-white py-3 rounded-lg text-lg font-semibold hover:bg-red-700 transition duration-300 transform hover:scale-105 mb-4">
