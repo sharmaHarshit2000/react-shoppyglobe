@@ -25,22 +25,38 @@ ShoppyGlobe is a modern e-commerce web application built using **React, Redux, R
 ## 📂 Project Structure
 ```
 ShoppyGlobe/
-│-- public/
-│-- src/
-│   │-- components/
-│   │   │-- ProductDetail.jsx
-│   │   │-- LoadingSpinner.jsx
-│   │-- hooks/
-│   │   │-- useFetch.js
-│   │-- redux/
-│   │   │-- cartSlice.js
-│   │-- pages/
-│   │   │-- Home.jsx
-│   │   │-- Cart.jsx
-│   │-- App.js
-│-- package.json
-│-- tailwind.config.js
-│-- README.md
+│
+├── public/
+│   └── index.html
+│
+├── src/               
+│   ├── components/
+│   │   ├── Header.jsx
+│   │   ├── ProductList.jsx
+│   │   ├── ProductItem.jsx
+│   │   ├── ProductDetail.jsx
+│   │   ├── Cart.jsx
+│   │   ├── CartItem.jsx
+│   │   ├── NotFound.jsx
+│   │  
+│   │
+│   ├── hooks/
+│   │   └── useFetch.js
+│   │
+│   ├── redux/
+│   │   ├── store.js
+│   │   └── cartSlice.js
+│   │
+│   ├── App.jsx
+│   ├── main.jsx
+│   └── index.css
+│
+├── .gitignore
+├── package.json
+├── tailwind.config.js
+├── postcss.config.js
+└── README.md
+
 ```
 
 ## 🛠️ Installation & Setup
