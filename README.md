@@ -4,14 +4,14 @@
 ShoppyGlobe is a modern e-commerce web application built using **React, Redux, React Router, and Tailwind CSS**. The application allows users to browse products, view detailed product descriptions, manage a shopping cart, and experience a seamless shopping journey.
 
 ## 🚀 Features
-- 📦 **Product Listing**: Browse a variety of products fetched dynamically.
+- 📦 **Product Listing**: Browse various products fetched dynamically.
 - 🔎 **Product Detail Page**: View detailed information, pricing, and images of each product.
 - 🛒 **Cart Management**: Add or remove products from the shopping cart with Redux state management.
 - 🔄 **Dynamic Routing**: Navigate through product pages using React Router.
 - 🎯 **Filter Functionality**: Filter products based on category, price, or other attributes.
 - 🌍 **API Integration**: Fetch product data from `https://dummyjson.com/products/{id}`.
-- 🎨 **Responsive UI**: Styled with Tailwind CSS for a modern and mobile-friendly experience.
-- 🔔 **Toasts for Feedback**: Notify users about successful actions (e.g., adding to cart).
+- 🎨 **Responsive UI**: Styled with Tailwind CSS for a modern, mobile-friendly experience.
+- 🔔 **Toasts for Feedback**: Notify users about successful actions.
 
 ---
 
