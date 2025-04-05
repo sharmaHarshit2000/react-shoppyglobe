@@ -53,8 +53,6 @@ ShoppyGlobe/
 │
 ├── .gitignore
 ├── package.json
-├── tailwind.config.js
-├── postcss.config.js
 └── README.md
 
 ```
