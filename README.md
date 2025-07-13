@@ -1,5 +1,7 @@
 # ShoppyGlobe - E-commerce Application
 
+[![Live Demo](https://img.shields.io/badge/Demo-Live-green)](https://react-shoppyglobe.netlify.app/)
+
 ## 📌 Project Overview
 ShoppyGlobe is a modern e-commerce web application built using **React, Redux, React Router, and Tailwind CSS**. The application allows users to browse products, view detailed product descriptions, manage a shopping cart, and experience a seamless shopping journey.
 
@@ -27,7 +29,8 @@ ShoppyGlobe is a modern e-commerce web application built using **React, Redux, R
 ShoppyGlobe/
 │
 ├── public/
-│   └── index.html
+│   ├── favicon.jpg
+│   └── _redirects
 │
 ├── src/               
 │   ├── components/
@@ -38,7 +41,6 @@ ShoppyGlobe/
 │   │   ├── Cart.jsx
 │   │   ├── CartItem.jsx
 │   │   ├── NotFound.jsx
-│   │  
 │   │
 │   ├── hooks/
 │   │   └── useFetch.js
@@ -53,25 +55,30 @@ ShoppyGlobe/
 │
 ├── .gitignore
 ├── package.json
-└── README.md
-
+├── README.md
+└── .env
 ```
 
 ## 🛠️ Installation & Setup
 1. **Clone the repository:**
    ```sh
-   git clone https://github.com/sharmaHarshit2000/ShoppyGlobe.git
+   git clone https://github.com/sharmaHarshit2000/react-shoppyglobe.git
    cd ShoppyGlobe
    ```
 2. **Install dependencies:**
    ```sh
    npm install
    ```
-3. **Start the development server:**
+3. **Add environment variable:**
+   Create a `.env` file in the root directory and add:
+   ```
+   VITE_API_URL=https://dummyjson.com/products
+   ```
+4. **Start the development server:**
    ```sh
    npm run dev
    ```
-4. Open (http://localhost:5173) in your browser.
+5. Open [http://localhost:5173](http://localhost:5173) in your browser.
 
 ## 📝 Usage
 - Click on a product to view its details.
@@ -79,5 +86,5 @@ ShoppyGlobe/
 - View the cart page to manage selected items.
 - Enjoy seamless navigation across the platform!
 
-
-
+## 🌐 Demo
+Check out the live demo: [https://react-shoppyglobe.netlify.app/](https://react-shoppyglobe.netlify.app/)
