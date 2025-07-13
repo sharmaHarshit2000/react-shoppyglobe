@@ -4,7 +4,8 @@ import useFetch from "../hooks/useFetch";
 import LoadingSpinner from "./LoadingSpinner";
 
 function ProductList() {
-    const { loading, error, data } = useFetch("https://www.dummyjson.com/products");
+    const API_URL = import.meta.env.VITE_API_URL;
+    const { loading, error, data } = useFetch(API_URL);
     const [searchQuery, setSearchQuery] = useState("");
 
     if (loading) return <LoadingSpinner />;

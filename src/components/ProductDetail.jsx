@@ -16,8 +16,9 @@ function ProductDetail() {
 
     useEffect(() => {
         const fetchProduct = async () => {
+            const API_URL = import.meta.env.VITE_API_URL;
             try {
-                const response = await fetch(`https://www.dummyjson.com/products/${id}`);
+                const response = await fetch(`${API_URL}/${id}`);
                 if (!response.ok) {
                     throw new Error("Failed to fetch product details"); // Error handling for failed request
                 }
